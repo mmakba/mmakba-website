@@ -1,9 +1,34 @@
 
 body {
-  background: radial-gradient(circle, #6f00ff, #333333, #eaff73, #ff01c8);
+  background: linear-gradient(circle, #1b1b1b, #686666, #afb1a6, #b8e0f0);
   margin: 0;
   font-family: Arial, sans-serif;
+  color: #000000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0d0d0d;
+  padding: 10px 20px;
+}
+
+.navbar-left .title {
+  font-size: 1.5em;
   color: #f0f0f0;
+  text-decoration: none;
+}
+
+.navbar-right a {
+  color: #f0f0f0;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 1em;
+}
+
+.navbar-right a:hover {
+  color: #4CAF50;
 }
 
 
@@ -29,6 +54,15 @@ main p {
   margin: 0 auto;
   line-height: 1.6;
 }
+
+.responsive-img {
+  width: 100%;
+  height: auto;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: block;
+}
+
 
 a {
   color: #4CAF50;
